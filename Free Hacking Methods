@@ -1,0 +1,528 @@
+I compiled a list of helpful tips and tricks to kick start your journey to hacking. This list is updated. The method works. Just do your own diligence and don't slack off, you'll get to where you want to go!
+
+
+
+Hacking is for everyone. Fight the system!
+
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1- Keylogger
+Most sources define a keylogger as a software program designed to secretly
+monitor and log all keystrokes. This definition is not altogether correct, since
+a keylogger doesn’t have to be software – it can also be a device. Keylogging
+devices are much rarer than keylogging software, but it is important to keep
+their existence in mind when thinking about information security.
+You can use keyloggers to hack any account fast and easy.
+It will basically sends you every single keystroke the victim does.
+So you can see the passwords and emails they type in browsers or even read their
+written emails/ private messages.
+There are also keylogger apps such as mSpy and iKeyMonitor which means it is
+possible to create one on nearly every system possible.
+Here are some keylogger tools:
+A Keylogger for Windows, Linux and Mac:
+https://github.com/GiacomoLaw/Keylogger
+Keylogger that sends strokes to G-Mail:
+https://github.com/GiacomoLaw/Keylogger
+Keylogger and surveillance app for IOS:
+https://ikeymonitor.com
+A Keylogger for Andriod:
+https://github.com/maemresen/android-keylogger
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2- Bruteforcing:
+A brute-force-attack consists of an attacker submitting many passwords with the
+hope of eventually guessing correctly.
+The attacker systematically checks all possible passwords and passphrases until
+the correct one is found.
+Theoretically it is possible to hack every password on this earth possible since
+you could even brute-force 2fa codes.
+But now comes up the question- Why does noone use this method?
+The answer is simple: Time and Physical limits.
+No matter how good your PC are some passwords are just so extremely complex that
+trying to get them by a brute-force attack would take billions of years to crack.
+The brute-force method is only good when you know what the password MIGHT be so
+here are some tools incase you know what to do.
+Bruteforcing tools:
+Gobuster:
+https://github.com/OJ/gobuster
+All-in-One Bruter-forcer:
+https://github.com/1N3/BruteX
+Dirsearch:
+https://github.com/maurosoria/dirsearch
+Callow:
+https://callow.vercel.app
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+3- Dictionary attack
+In contrast with a brute-force attack, where all possibilities are searched
+through exhaustively, a dictionary attack only tries possibilities which are most
+likely to succeed,
+typically derived from a wordlist or a dictionary. Generally, dictionary attacks
+succeed because many people have a tendency to choose passwords which are short,
+single words in a dictionary, or are simple variations that are easy to predict.
+A lot of people use those combinations as their password:
+Name + random number
+Name + date of birth
+Name + !§=)$ etc.
+Family name + random number
+Family name + date of birth
+...
+This is why collection information is important since you need to know how his
+full name is and the names of his family members or friends.
+Maybe the name of the dog or the name of an old friend could be the solution to
+crack the password.
+Tools:
+Acccheck
+https://labs.portcullis.co.uk/tools/acccheck/
+Cain & Abel
+https://cain-and-abel.de.malavida.com/windows/
+Aircrack-ng
+https://www.aircrack-ng.org
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+4- Pwned and leaked Data
+It is possible hack people with only an E-Mail through that
+"Have i been pwned" allows you to search across multiple data breaches to see if
+your email address, old password or phone number has been compromised.
+You can put in the email of the victim or even an old password of them. It will
+display if any of their date ever got leaked to the public due to hacked/
+leaked databases and mass hacking attacks.
+If you see the warning "Oh no - pwned!" You basically won because the website
+will display you which kind of leak lead to the password of the victm
+beeing publicly avaible. You can end up downloading the leaked database on
+different public forums and then end up using it for yourself.
+There is even one for internet bankings so try it out yourself.
+533 million Facebook users' phone numbers and personal data have been leaked
+online. Yaho had a big ass databreach in 2017 too.
+You can download all of them on random forums and hope that your victims data are
+one of them.
+This is how it would look like if the E-Mail/ Password already got leaked.
+[Image: a0a4205b-0001-0004-0000-000001384946_w92...y54.93.jpg]
+Here are the sites for this:
+Have i been pwned:
+https://haveibeenpwned.com
+Internet banking:
+https://www.ebas.ch/have-i-been-pwned/
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+5- Phishing
+Phishing is a common scam that attempts to lure you into giving up your username,
+password, or other sensitive information by using a replica of an original app/
+login page/ Website.
+This can be done to any device possible it is typcally spread by email.
+The email may appear to come from ECSU or another company you do business with,
+and it often asks you to click a link, open an attachment, or reply with your
+account or personal information.
+Social engineering isn't always simplest constrained to guessing passwords.
+You can use the method to force your victim to a click on a phishing web page
+which you have in particular created to gather passwords.
+You have to persuade the person to log of their account through your web page via
+social engineering.
+You can to lure them on your web page with the promise of free money/ free leaks
+or more shit like that.
+Full tutorial:
+Phishing attacks are SCARY easy to do!! (let me show you!) // FREE Security+ //
+EP 2
+How hackers create PHISHING sites!
+Phishing tools:
+Known tool
+Preloaded
+Download: https://github.com/xHak9x/SocialPhish
+Man-in-the-middle attack
+Allows bypassing 2-factor authentication protection
+Acts as a proxy between a browser and phished website
+Download: https://github.com/kgretzky/evilginx2
+Designed for social engineering
+Multiple custom attack vectors
+Believable quick attack
+Download: https://github.com/trustedsec/social-engineer-toolkit
+Wifi phishing
+Scans the victim stations for vulnerabilities
+Creates a fake wireless network that looks similar to a legitimate network
+Download: https://github.com/wifiphisher/wifiphisher
+Open-source phishing toolkit
+Dead-simple
+For Windows too
+Download: https://github.com/gophish/gophish
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+6- Password Reset
+This method is pretty easy and must be combined with social engineering.
+You need to have a physical access to the phone to simply request the victims
+account and request the following app for a password reset.
+If you do not have phsyiscal access to the victims device you can simply request
+a new password with their account. The code will be sent to the person as an SMS.
+It is possible to tell the person beforehand things like:
+"My account needs a new number can i use yours?" or "I need to verify my account
+but my number does not work can i use yours?"
+This method is also used to steal someone else’s Instagram account permanently.
+Another Method is to ask the person a lot of personal questions like whats your
+mums name and dads name etc etc.
+The kind of questions that you need to answer the security questions for.
+Collect them all but let it seem like a normal conversation and thats how you do
+it!
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+7- Linked accounts
+A majority of Instagram users have linked their Facebook accounts on them. If you
+can hack someone’s Facebook account, you willl also get automatic access to
+their Instagram account.
+This kind of method works with a lot of other social media accounts too. Facebook
+accounts are also linked to tons of games which means you will also get
+access to their game accounts for example Dragon City.
+Works with Facebook Mobile Games:
+Daily Soduko
+Master Archer
+Draw Something
+Words with Friends
+8 Ball Pool
+Super Dash
+Mahjong Trails Blitz
+Jewel Academy
+Tomb Runner
+Word Life
+Dragon Land
+World Chef
+Dragon Land
+Tasty Town
+Dragon City
+Monster Legends
+(Finding those kind of Accounts IS EXTREMELY DIFFICULT AND THEY ARE AND EXPENSIVE
+AT THE SAME TIME
+SO IT IS A PERFECT LOOT FOR SOMEONE WHO SELLS ACCOUNTS!!!!!!)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+8- Exploits and Vulnerabilities
+An exploit is a piece of software, a chunk of data, or a sequence of commands
+that takes advantage of a bug or vulnerability in an application or a system to
+cause unwanted effects.
+The name comes from the English verb to exploit, meaning “to use something to
+one’s own advantage”.
+Basically, this means that the target of an attack suffers from a design flaw
+that allows people to create the means to access it and use it in his interest.
+Among the most well-known web-based security vulnerabilities are: SQL injection
+attacks, cross-site scripting , cross-site request forgery and broken
+authentication code or security misconfigurations. In general, exploits can be
+clasified in two main categories: known and unknown (or zero-day
+vulnerabilities).
+The zero-day vulnerabilities are by far the most dangerous, as they happen when a
+software contains a critical security vulnerability of which the programmer or
+the owner of the software is unaware of.
+So now that you know what an exploit its let me show you how to abuse them and
+how to find them.
+How to find exploits [ONLY FOR HIGHLY EXPERIENCED HACKERS]:
+It’s not like every nth line of code has something exploitable. Software that
+tries to do certain things, fails in certain ways, over and over and over again.
+So mostly we look for the old problems, and port them over to their new hosts.
+There are three main strategies for finding bugs.
+Design review
+Basically just look at what it’s trying to do, and figure out if it did it wrong.
+Code review — look at how it’s built, either as source code or compiled binaries
+(both help, both matter). And Fuzzing.
+Fuzzing
+Fuzzing is basically throwing noise at software, and seeing what happens. Bugs
+might only show up one out of a million tests, but if you try things a hundred
+million times, you’re going to get a hundred bugs.
+Fuzzing gets smarter each passing year. What that means is that instead of
+throwing random noise at code, we watch what happens as we talk to the software,
+and learn from it. Bugs are not random, because software is not random. You have
+to *reach* a bug, in order to find it.
+Alternatively, if you’re twenty levels deep into a program and you find a
+problem, who knows if that problem is even exploitable. Anywhere along those 19
+layers above you might be something that stops you. Often it’s a hassle to figure
+that out.
+SAT and SMT solvers are technologies that automate figuring out if things are
+exploitable after all. They’re quite effective. These solvers of course are used
+in a variety of ways; they’re probably the most effective “machine learning” tech
+in security right now.
+Finding Access Vulnerabilities
+What generally happens is that an advanced or elite hacker writes a scanning tool
+that looks for well-known vulnerabilities, and the elite hacker makes it
+available over the Internet. Less experienced hackers, commonly called "script
+kiddies," then run the scanning tool 24 x 7, scanning large numbers of systems
+and finding many systems that are vulnerable. They typically run the tool against
+the name-spaces associated with companies they would like to get into.
+The script kiddies use a list of vulnerable IP addresses to launch attacks, based
+on the vulnerabilities advertised by a machine, to gain access to systems.
+Depending on the vulnerability, an attacker may be able to create either a
+privileged or non-privileged account. Regardless, the attacker uses this initial
+entry (also referred to as a "toe-hold") in the system to gain additional
+privileges and exploit the systems the penetrated system has trust relationships
+with, shares information with, is on the same network with, and so on.
+sources: https://www.quora.com/What-is-the-proces...rabilities
+YOU DO NOT NEED TO FIND EXPLOITS TO USE THEM!
+There are tons of exploits that are public and they are still not fixed because
+people do not update their system and websites do not pay for any kind of
+security most of the times. There are well known and legal databases that display
+every kind of exploit that is public yet.
+There are tons of different exploits from different Softwares and Hardwares.
+Totally free to copy and abuuse.
+So here is where you can find them.
+The Exploit Database
+Exploits, Shellcode, 0days, Remote Exploits, Local Exploits, Web Apps,
+Vulnerability Reports, Security Articles, Tutorials and more
+https://www.exploit-db.com/
+Vulnerability and Exploit Database
+Technical details for over 180,000 vulnerabilities and 4,000 exploits are
+available for security professionals and researchers to review
+https://www.rapid7.com/db/
+CXSecurity
+Independent information about security is a huge collection of information on
+data communications safety
+https://cxsecurity.com/
+Vulnerability Lab
+Offers access to a large vulnerability database complete with exploits and PoCs
+for research purposes
+https://www.vulnerability-lab.com/
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+9- Create fake apps:
+If you can already create a fake Instagram login page in Method 3 above, then why
+not create a fake Instagram app that looks exactly like the original and collect
+users’ data from the app? It is easy to create an Instagram clone app if you have
+the necessary skills or the patience and time to learn Android Application
+development. Once you have built your app, the remaining job is to make sure your
+victim downloads the fake app on their phone and uses it to log in to Instagram.
+Make sure the app redirects the targeted person to the real Instagram login page
+after you’ve collected their data in order to avoid raising any suspicion.
+The basic concept in social engineering is to trick your victims to tell you
+their username and password indirectly. Social engineering has been around for
+years. It is an art of making people to actually give you specific information
+that you are looking for rather than use brute force or spy apps to get the
+information.
+Most social engineering tricks are used to get the victim’s username and password
+combination for a specific website. You can apply the same social engineering
+skills to acquire the Instagram username and password from your targeted victim
+and use the data to gain access into their Instagram account. Most social
+engineering skills typically imitate a representative from the platform, in this
+case Instagram, who contacts you about a breach in the company’s security which
+has made it necessary for all users to change their passwords. They’ll even ask
+you to provide a unique password for your account.
+Most Instagram social engineering tactics work 50% of the time in the real world.
+All it takes to succeed in social engineering is to have a good understanding of
+your victim’s typical behavior and what kind of password they’d set for their
+account. You’d be surprised by the number of people who use their names, their
+pet’s name, or girlfriend’s phone number as their password. Most people are quite
+predictable once you get to know them well.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+10- Malware/ Rats/ Trojan
+HOW TO MAKE YOUR OWN RAT FILE
+Tutorials:
+How to get remote access to your hacking targets // reverse shells with netcat
+(Windows and Linux!!)
+Remcos RAT Review - The Most Advanced Remote Access Tool
+R.A.T (Hacking Software) Tier List! (Educational Purposes Only)
+Tools:
+AndroidSPY RAT
+https://github.com/qH0sT/AndroSpy
+TheFatRAT
+https://github.com/screetsec/TheFatRat
+EvilOSX
+https://github.com/Marten4n6/EvilOSX
+Malware collection:
+https://github.com/vxunderground/MalwareSourceCode
+Malware collection v2:
+https://github.com/RamadhanAmizudin/malware
+HOW TO SPREAD YOUR MALWARE:
+1) Youtube Tutorials
+This is literally one of the easiest ways to do it.
+First step:
+You can either create a new YouTube account which will accuire tons of work and
+advertising to get BARELY any views.
+OR you can buy a YouTube channel with a high amount of followers instead.
+Those are Websites on where you could buy YouTube Accounts:
+https://accs-market.com/youtube
+(Best one in my opinion (PAY WITH PAYPAL SO YOU CAN RQUEST FOR A REFUND IINCASE
+YOU GET SCAMMED))
+and
+https://fameswap.com/browse-youtube-accounts-for-sale
+(I HAD NO EXPERIENCE WITH THIS WEBSITE)
+The titles on the videos you post should be looking like this:
+CSGO HACK FREE NOW [WALLHACK, AIMBOT]
+GTA V MOD MENU [UNDETECTED] 2.000.000 IN ONE SECOND!
+DISCORD NITRO GENERATOR [100k CODES IN ONE SECOND]
+DISCORD TOKEN GENERATOR ....
+and so on
+Second step:
+Depending on how lazy you are you can either make your own tutorials or download
+videos from other YouTubers and change the description
+with your malware infected tool.
+In the description of the video you need to provide a link to download the Mod/
+Hack/Scriptin this case it's your own RAT/ Malware/ Miner or whatever you wanna
+use.
+Third step:
+This one is not really necessary but you can try to advertise your videos to
+other people on Discord or other platforms where you think people
+might be intrested in your content. There are a lot of Discord servers where you
+are able to post your YouTube video in without getting banned nor muted.
+Do it frequently and build up your own viewerbase.
+This is it. This is how easy it is.
+2) Phishing Emails
+You can use opensource scripts to spam phishing Emails to tons of other people.
+This will increase your chance in someone falling for the malware you are sending
+them.
+Keep in mind:
+People would rather open excel and word files than EXE files so you can also use
+files like "YOUR DATA.xls"
+People would trust an email with a credible message (No spelling mistakes,
+professionality)
+Try to pressure the victim to answer (This Link will only work for 24 hours...
+etc)
+Here are some Emails for you
+3) Pastebin/ Hastebin method
+Spread your malware download links on Hate-/Pastebin.
+This will help you since a lot of people use those Websites to upload their
+stuff. They ususally dork around on google to find new accounts or methods
+and they will end up finding your Malware through your Keywords that you added to
+your post uploaded text and link.
+Use those those Websites to get good Keywords:
+https://keywordtool.io/
+https://ahrefs.com/de/keyword-generator
+https://www.internet-marketing-inside.de...-Tool.html
+4) Hacking Forums
+Those are one of the best tactics because nearly everyone does it.
+All of those people do not use their brain and if there is a malware that did not
+get detected
+by Virustotal EVERYONE would download it and the staff would also not notice it.
+Threads are really easy to create and they have absolutely no limitations at all.
+You can post whatever you want and as long as the malware isnt too obvious you
+are able to spread it for a long long time.
+And if you get banned? Create a new account thats all it takes.
+5) E-whoring
+This Method is not only a good way to make tons of money but also an awesome way
+to get private information of people.
+So you're first going to want to create a Snapchat/ Pintrest/ Instagram account
+with a spam email.
+Make sure to add tons of details to the profile to make it look more believable.
+For example verify the E-Mail have some followers and posts etc.
+Do not spam add or spam follow people because social media apps all restricted
+spam-like behaviour.
+So if you wanna be careful: take it slow.
+The best platforms to like spread your snapchat name is basically Yubo, Hoop or
+Omegle chat.
+Use any E-Whoring leak you can find and send it to people after holding on a long
+conversation with them.
+From there you are free to do with the person whatever you want. Because if she
+starts loving you you can send and tell them to do whatever you want.
+You can even get them to send you money from there on and and even get them to
+spread your malware to more people.
+6) Automated Methods
+You can either leave an accuont e whoring for you through using multiple chat
+bots or automated spam scripts that spam the download link to other people.
+Those are the typical spam messages or groupchats you get on Instagram. You would
+ignore it but trust me tons of other people do click on the links
+without even hesitating.
+Another method would be to basically inject the malware into a game or a well
+known app and let your close friend circle use it and get them to somehow spread
+it all around their
+own friend-group too. You can use it for your own class you are in or a
+university.
+A game app is hard to analyze and noone has the skill required to do it so you
+can abuse the lack of knowledge in here for you own advantage.
+Get Discord Mass DM Scripts and advertise that malware with stolen or bought
+tokens.
+Tokens are extremly cheap and you can buy 1k for barely 4 Euro. You can even buy
+token generators for like 60 Euro and they will work forever.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+7) Monetoring Apps
+Paid:
+https://www.dynatrace.com/
+https://www.manageengine.com
+Free:
+https://mobile-tracker-free.de
+https://www.mspy.com
+https://www.clevguard.com
+https://tmetric.com
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+8) Advanced Social Engeneering
+Hack someones Camera through a Link:
+https://github.com/hangetzzu/saycheese
+The Social-Engineer Toolkit (SET):
+https://github.com/trustedsec/social-engineer-toolkit
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+9) HQ Hacking Websites
+Exploits Database
+http://www.exploit-db.com/
+http://www.intelligentexploit.com
+http://www.shodanhq.com/
+http://packetstormsecurity.com/
+Vulnerabilities Database
+https://cve.mitre.org/cve/
+http://www.cvedetails.com/
+https://nvd.nist.gov/
+http://osvdb.org/
+https://www.kb.cert.org/vuls/
+https://secunia.com/community/advisories/search/
+http://www.securityfocus.com/bid
+http://lwn.net/Vulnerabilities/
+http://denimgroup.com/resources-threadfix/
+http://www.vulnerability-lab.com
+http://www.secdocs.org/
+Hacking Tutorials
+https://www.offensive-security.com/
+http://www.kalitutorials.net/2013/08/kali-linux.html
+https://www.youtube.com/user/DEFCONConference
+https://www.youtube.com/user/Hak5Darren
+https://www.youtube.com/user/sansinstitute
+https://en.wikibooks.org/wiki/Metasploit/VideoTutorials
+http://www.hacking-tutorial.com/
+http://breakthesecurity.cysecurity.org/
+http://www.securitytube.net/
+http://www.ehacking.net/
+https://vimeo.com/channels/fullscopesecurity
+http://www.spacerogue.net/wordpress/
+Virus Scan
+https://www.virustotal.com/nl/
+http://anubis.iseclab.org/
+http://virusscan.jotti.org/it
+Not distribute to AV
+http://v2.scan.majyx.net/?page=home
+http://fuckingscan.me/
+https://anonscanner.com/
+http://nodistribute.com/
+http://www.file2scan.net/
+Tools Download
+http://tools.kali.org/tools-listing
+http://insecure.org/
+http://www.hackersonlineclub.com/hacking-tools
+https://www.concise-courses.com/hacking-tools/
+http://www.darknet.org.uk/category/hacking-tools/
+http://www.kitploit.com/
+http://www.toolswatch.org/
+http://www.blackarch.org/tools.html
+https://pentest-tools.com/reconnaissance/google-hacking
+https://gexos.github.io/Hacking-Tools-Repository/
+http://www.romhacking.net/utilities/
+Network Online Tools
+http://www.yougetsignal.com/
+http://www.dnswatch.info/
+http://www.nirsoft.net/countryip/
+http://www.tcpiputils.com/
+http://www.coffer.com/mac_find/
+http://bgp.he.net/
+http://www.sockets.com/services.htm
+http://services.ce3c.be/ciprg/
+IP Lookup
+http://ip-api.com/
+http://www.my-ip-neighbors.com/
+http://www.whatismyip.com/
+http://www.ip2location.com/demo
+http://freegeoip.net/static/index.html
+http://whatstheirip.com
+http://ipaddress.com
+http://www.ip-adress.com/ipaddresstolocation/
+Encrypt / Decrypt
+http://crypo.in.ua/tools/
+http://www.tools4noobs.com/online_tools/decrypt/
+http://codebeautify.org/encrypt-decrypt
+http://textmechanic.com/Encryption-Generator.html
+http://www.yellowpipe.com/yis/tools/encrypter/
